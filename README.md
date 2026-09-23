@@ -68,5 +68,3 @@ caption and the target word in MPNet space. Results go to
 | `train_lfa.py` | training |
 | `evaluate.py` | generation and evaluation |
 | `metrics_lib.py` | feature extractors used by the metrics |
-
-The statistical analyses of the paper are not included.
