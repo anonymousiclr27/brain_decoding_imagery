@@ -12,8 +12,7 @@ pip install -r requirements.txt
 Then edit `settings.py`, the only file containing paths:
 
 * `NSD_IMAGERY_ROOT`, `DESIGN_MATRIX_DIR`, `CUE_PAIR_LIST` — the NSD / NSD-Imagery data;
-* `DYNADIFF_REPO`, `DYNADIFF_CKPT` — the pretrained decoder (DynaDiff code and the
-  subject checkpoints), an external dependency not shipped here.
+* `DYNADIFF_REPO`, `DYNADIFF_CKPT` — the pretrained decoder.
 
 Do not rename `settings.py` or `alignment.py`: the decoder ships its own `config` and
 `model` packages, and modules of those names here would shadow them.
