@@ -1,0 +1,19 @@
+# core
+torch>=2.0
+numpy
+scipy
+pandas
+# preprocessing
+nibabel
+nilearn
+openpyxl          # reads cue_pair_list.xlsx
+pillow
+pydantic
+# metrics
+scikit-image
+torchvision
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+transformers      # BLIP captions and MPNet sentence embeddings
+tqdm
