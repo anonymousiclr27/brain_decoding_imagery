@@ -9,8 +9,6 @@ decoding from fMRI data*.
 pip install -r requirements.txt
 ```
 
-Then edit `settings.py`, the only file containing paths:
-
 * `NSD_IMAGERY_ROOT`, `DESIGN_MATRIX_DIR`, `CUE_PAIR_LIST` — the NSD / NSD-Imagery data;
 * `DYNADIFF_REPO`, `DYNADIFF_CKPT` — the pretrained decoder.
 
